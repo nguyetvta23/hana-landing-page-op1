@@ -6,9 +6,9 @@ export function PrivacyBadge() {
     const { t } = useTranslation();
 
     const features = [
-        { icon: Lock, key: 'localProcessing' },
-        { icon: Eye, key: 'noTracking' },
-        { icon: Shield, key: 'noUpload' },
+        { icon: Lock, key: 'encryption' },
+        { icon: Shield, key: 'authentication' },
+        { icon: Eye, key: 'httpsOnly' },
         { icon: FileCheck, key: 'securityAudit' },
     ];
 

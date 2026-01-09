@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
-import { Sparkles, Zap, Shield, Brain, ArrowRight, Check, Star, Users, Clock, Play, Chrome, FolderKanban } from 'lucide-react';
+import { Sparkles, Shield, Brain, ArrowRight, Check, Star, Users, Clock, Play, Chrome, FolderKanban, MessageCircle } from 'lucide-react';
 
 // Import components
 import { LanguageSwitcher } from './components/LanguageSwitcher';
@@ -256,26 +256,36 @@ function App() {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             <FeatureCard
               icon={<Brain className="w-6 h-6 text-primary-400" />}
               title={t('features.feature1.title')}
               description={t('features.feature1.description')}
             />
             <FeatureCard
-              icon={<Zap className="w-6 h-6 text-accent-500" />}
+              icon={<MessageCircle className="w-6 h-6 text-accent-500" />}
               title={t('features.feature2.title')}
               description={t('features.feature2.description')}
             />
             <FeatureCard
-              icon={<Shield className="w-6 h-6 text-emerald-400" />}
+              icon={<FolderKanban className="w-6 h-6 text-sky-400" />}
               title={t('features.feature3.title')}
               description={t('features.feature3.description')}
             />
             <FeatureCard
-              icon={<FolderKanban className="w-6 h-6 text-sky-400" />}
+              icon={<Users className="w-6 h-6 text-violet-400" />}
               title={t('features.feature4.title')}
               description={t('features.feature4.description')}
+            />
+            <FeatureCard
+              icon={<Sparkles className="w-6 h-6 text-amber-400" />}
+              title={t('features.feature5.title')}
+              description={t('features.feature5.description')}
+            />
+            <FeatureCard
+              icon={<Shield className="w-6 h-6 text-emerald-400" />}
+              title={t('features.feature6.title')}
+              description={t('features.feature6.description')}
             />
           </div>
         </div>

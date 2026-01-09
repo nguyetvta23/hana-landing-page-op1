@@ -7,10 +7,10 @@
         "addToChrome": "Add to Chrome"
     },
     "hero": {
-        "badge": "Trusted by 10,000+ users",
-        "headline1": "Browse Smarter",
-        "headline2": "With AI Power",
-        "description": "Hana automatically summarizes content, manages tabs intelligently, and boosts your productivity 3x - completely automated and non-intrusive.",
+        "badge": "AI Platform trusted by 10,000+ professionals",
+        "headline1": "AI Productivity Platform",
+        "headline2": "For Your Browser",
+        "description": "Hana combines Translation, Summarization, Chat AI, and Document Management in one extension. Boost productivity with project management, team collaboration, and advanced AI models.",
         "ctaPrimary": "Add to Chrome - It's Free",
         "ctaSecondary": "Watch Instruction Video",
         "stats": {
@@ -29,8 +29,8 @@
             "description": "Add Hana to Chrome with just one click from the Chrome Web Store. Completely free, no registration required, no email needed. The extension is super lightweight and won't slow down your browser."
         },
         "step2": {
-            "title": "Browse as Usual",
-            "description": "Continue browsing the web normally - read news, research, work. Hana runs silently in the background, automatically analyzing the content you're viewing, summarizing long articles, and organizing tabs intelligently by topic."
+            "title": "Use When Needed",
+            "description": "Right-click to translate or summarize selected text. Open the side panel to chat with AI, manage projects, upload documents, and access all of Hana's powerful features."
         },
         "step3": {
             "title": "Get Smart Insights",
@@ -52,42 +52,30 @@
     },
     "features": {
         "title": "Key Features",
-        "subtitle": "Designed for maximum productivity with cutting-edge AI technology",
+        "subtitle": "Complete AI productivity platform for professional work",
         "feature1": {
-            "title": "Smart Summarization",
-            "description": "AI analyzes and summarizes any article in just seconds. Grasp key points from long articles, research papers, or technical documentation without reading everything. Supports multiple languages and customizable summary length.",
-            "highlights": [
-                "Summarize in 3 seconds",
-                "20+ languages supported",
-                "Customizable length"
-            ]
+            "title": "AI Translation & Summarization",
+            "description": "Translate text to 20+ languages with advanced AI models. Summarize long articles in 3 styles (Brief, Balanced, Detailed). Auto-detect language and context-aware translations with glossary support."
         },
         "feature2": {
-            "title": "Lightning Fast & Lightweight",
-            "description": "Optimized down to every byte. Hana uses smart caching, lazy loading, and background processing to ensure it never slows down your browser regardless of how many tabs you open. Uses less than 50MB RAM.",
-            "highlights": [
-                "Under 50MB RAM",
-                "Zero speed impact",
-                "Background processing"
-            ]
+            "title": "AI Chat With Context Awareness",
+            "description": "Chat about any content on the web. AI assistant understands your context, remembers conversation history, and can answer based on documents in your project."
         },
         "feature3": {
-            "title": "Absolute Security",
-            "description": "Your data is processed locally on your machine, never sent to any server. We don't collect browsing history, no tracking, no ads. Our codebase is regularly security audited.",
-            "highlights": [
-                "Local processing",
-                "Zero tracking",
-                "Security audited"
-            ]
+            "title": "Project & Document Management",
+            "description": "Organize work by separate projects. Upload and manage documents (PDF, DOC, MD), semantic search with AI, and share with team members. Import from Notion and Google Sheets."
         },
         "feature4": {
-            "title": "Project Context Management",
-            "description": "Organize work by individual projects. Hana remembers the context of each project, automatically applying industry terminology and appropriate vocabulary when switching between projects. Perfect for freelancers and teams working on multiple projects.",
-            "highlights": [
-                "Save context per project",
-                "Industry glossaries",
-                "Auto-remember settings"
-            ]
+            "title": "Effective Team Collaboration",
+            "description": "Invite members to projects, assign roles (owner, editor, viewer), share translations and summaries. Admin panel to manage teams and track usage statistics."
+        },
+        "feature5": {
+            "title": "Multi-Model AI Support",
+            "description": "Choose from multiple AI models (GPT-4, etc.) based on your needs. Each model is optimized for different tasks: translation accuracy, summarization quality, or generation speed."
+        },
+        "feature6": {
+            "title": "Enterprise-Grade Security",
+            "description": "JWT authentication with access/refresh tokens, role-based access control, session management. HTTPS API calls with end-to-end encryption, and regularly audited codebase."
         }
     },
     "cta": {
@@ -109,27 +97,27 @@
         "title": "Hana Getting Started Guide"
     },
     "privacy": {
-        "title": "Privacy Is Our Top Priority",
-        "subtitle": "Your data stays safe with you",
+        "title": "Enterprise-Grade Security",
+        "subtitle": "Safe, transparent, and compliant with security standards",
         "features": {
-            "localProcessing": {
-                "title": "Local Processing",
-                "description": "All data processed right on your device"
+            "encryption": {
+                "title": "End-to-End Encryption",
+                "description": "Data encrypted during transmission"
             },
-            "noTracking": {
-                "title": "Zero Tracking",
-                "description": "No browsing history collection"
+            "authentication": {
+                "title": "JWT Authentication",
+                "description": "Secured with access/refresh tokens and session management"
             },
-            "noUpload": {
-                "title": "No Server Uploads",
-                "description": "Data never leaves your machine"
+            "httpsOnly": {
+                "title": "HTTPS-Only API",
+                "description": "All API calls over secure HTTPS"
             },
             "securityAudit": {
                 "title": "Security Audited",
-                "description": "Codebase regularly reviewed"
+                "description": "Codebase regularly reviewed by experts"
             }
         },
-        "comparison": "Unlike other AI assistants, Hana never accesses or stores your personal data"
+        "comparison": "We never sell data to third parties and comply with international security standards"
     },
     "faq": {
         "badge": "FAQ",
@@ -139,7 +127,7 @@
             "isFree": "Is Hana really free?",
             "isFreeAnswer": "Yes! Hana is completely free. No hidden fees, no credit card required, and you can use it forever.",
             "dataProtection": "How is my data protected?",
-            "dataProtectionAnswer": "All data is processed locally on your computer. We don't collect, store, or access your browsing history.",
+            "dataProtectionAnswer": "Data is encrypted end-to-end and transmitted via HTTPS. We use JWT authentication to protect accounts. We never sell data to third parties and comply with international security standards.",
             "browserSpeed": "Does Hana slow down my browser?",
             "browserSpeedAnswer": "Not at all! Hana uses under 50MB RAM and is optimized with background processing. You won't notice any slowdown.",
             "browsers": "What browsers does Hana support?",

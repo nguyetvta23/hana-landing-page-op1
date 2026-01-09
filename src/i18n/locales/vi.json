@@ -7,10 +7,10 @@
         "addToChrome": "Add to Chrome"
     },
     "hero": {
-        "badge": "Được tin dùng bởi 10,000+ người dùng",
-        "headline1": "Duyệt Web Thông Minh",
-        "headline2": "Với Sức Mạnh AI",
-        "description": "Hana tự động tóm tắt nội dung, quản lý tabs thông minh, và giúp bạn tăng năng suất gấp 3 lần - hoàn toàn tự động và không làm gián đoạn công việc.",
+        "badge": "Nền tảng AI được tin dùng bởi 10,000+ chuyên gia",
+        "headline1": "Nền Tảng Năng Suất AI",
+        "headline2": "Cho Trình Duyệt Của Bạn",
+        "description": "Hana kết hợp Translation, Summarization, Chat AI, và Document Management trong một extension duy nhất. Tăng năng suất làm việc với project management, team collaboration, và AI models tiên tiến.",
         "ctaPrimary": "Thêm vào Chrome - Miễn phí",
         "ctaSecondary": "Xem Video Hướng Dẫn",
         "stats": {
@@ -29,8 +29,8 @@
             "description": "Thêm Hana vào Chrome chỉ trong 1 click từ Chrome Web Store. Hoàn toàn miễn phí, không cần đăng ký tài khoản, không cần cung cấp email. Extension rất nhẹ và sẽ không làm chậm trình duyệt của bạn."
         },
         "step2": {
-            "title": "Duyệt Web Bình Thường",
-            "description": "Tiếp tục duyệt web như bình thường - đọc tin tức, nghiên cứu, làm việc. Hana chạy ngầm trong nền, tự động phân tích nội dung bạn đang xem, tóm tắt bài viết dài, và tổ chức tabs thông minh theo chủ đề."
+            "title": "Sử Dụng Khi Cần",
+            "description": "Click chuột phải để dịch hoặc tóm tắt văn bản đã chọn. Mở side panel để chat với AI, quản lý projects, upload documents, và truy cập tất cả tính năng mạnh mẽ của Hana."
         },
         "step3": {
             "title": "Nhận Insights Thông Minh",
@@ -52,42 +52,30 @@
     },
     "features": {
         "title": "Tính Năng Nổi Bật",
-        "subtitle": "Được thiết kế để tăng năng suất tối đa với công nghệ AI tiên tiến nhất",
+        "subtitle": "Nền tảng AI productivity hoàn chỉnh cho công việc chuyên nghiệp",
         "feature1": {
-            "title": "Tóm Tắt Thông Minh",
-            "description": "AI phân tích và tóm tắt bất kỳ bài viết nào chỉ trong vài giây. Nắm bắt ý chính từ bài báo dài, paper nghiên cứu, hay documentation kỹ thuật mà không cần đọc toàn bộ. Hỗ trợ đa ngôn ngữ và tùy chỉnh độ dài tóm tắt.",
-            "highlights": [
-                "Tóm tắt trong 3 giây",
-                "Hỗ trợ 20+ ngôn ngữ",
-                "Tùy chỉnh độ dài"
-            ]
+            "title": "Dịch & Tóm Tắt Bằng AI",
+            "description": "Dịch văn bản sang 20+ ngôn ngữ với AI models tiên tiến. Tóm tắt bài viết dài thành 3 styles (Brief, Balanced, Detailed). Tự động detect ngôn ngữ và context-aware translations với glossary support."
         },
         "feature2": {
-            "title": "Siêu Nhanh & Nhẹ",
-            "description": "Được tối ưu hóa đến từng byte. Hana sử dụng caching thông minh, lazy loading, và background processing để đảm bảo không làm chậm trình duyệt dù bạn mở bao nhiêu tabs. Tiêu thụ RAM dưới 50MB.",
-            "highlights": [
-                "Dưới 50MB RAM",
-                "Không ảnh hưởng tốc độ",
-                "Background processing"
-            ]
+            "title": "Chat AI Với Context Awareness",
+            "description": "Chat về bất kỳ nội dung nào trên trang web. AI assistant hiểu context của bạn, ghi nhớ conversation history, và có thể trả lời dựa trên documents trong project của bạn."
         },
         "feature3": {
-            "title": "Bảo Mật Tuyệt Đối",
-            "description": "Dữ liệu của bạn được xử lý cục bộ trên máy, không gửi về bất kỳ server nào. Chúng tôi không thu thập lịch sử duyệt web, không tracking, không quảng cáo. Mã nguồn được kiểm toán bảo mật định kỳ.",
-            "highlights": [
-                "Xử lý cục bộ",
-                "Không tracking",
-                "Kiểm toán bảo mật"
-            ]
+            "title": "Quản Lý Dự Án & Tài Liệu",
+            "description": "Tổ chức công việc theo project riêng biệt. Upload và quản lý documents (PDF, DOC, MD), tìm kiếm semantic với AI, và chia sẻ với team members. Import từ Notion và Google Sheets."
         },
         "feature4": {
-            "title": "Quản Lý Ngữ Cảnh Theo Dự Án",
-            "description": "Tổ chức công việc theo từng dự án riêng biệt. Hana ghi nhớ ngữ cảnh của từng project, tự động áp dụng thuật ngữ chuyên ngành và từ vựng phù hợp khi bạn chuyển đổi giữa các dự án. Hoàn hảo cho freelancers và team làm việc nhiều dự án.",
-            "highlights": [
-                "Lưu ngữ cảnh theo project",
-                "Từ điển chuyên ngành",
-                "Tự động ghi nhớ"
-            ]
+            "title": "Làm Việc Nhóm Hiệu Quả",
+            "description": "Mời members vào project, phân quyền (owner, editor, viewer), chia sẻ translations và summaries. Admin panel để quản lý team và theo dõi usage statistics."
+        },
+        "feature5": {
+            "title": "Hỗ Trợ Nhiều AI Models",
+            "description": "Lựa chọn từ nhiều AI models (GPT-4, v.v.) tùy theo nhu cầu. Mỗi model được tối ưu cho tasks khác nhau: translation accuracy, summarization quality, hay generation speed."
+        },
+        "feature6": {
+            "title": "Bảo Mật Cấp Doanh Nghiệp",
+            "description": "JWT authentication với access/refresh tokens, role-based access control, session management. API calls qua HTTPS với mã hóa end-to-end, và mã nguồn được audit bảo mật định kỳ."
         }
     },
     "cta": {
@@ -109,27 +97,27 @@
         "title": "Hướng Dẫn Sử Dụng Hana"
     },
     "privacy": {
-        "title": "Bảo Mật Là Ưu Tiên Hàng Đầu",
-        "subtitle": "Dữ liệu của bạn luôn an toàn",
+        "title": "Bảo Mật Cấp Doanh Nghiệp",
+        "subtitle": "An toàn, minh bạch, và tuân thủ chuẩn bảo mật",
         "features": {
-            "localProcessing": {
-                "title": "Xử Lý Cục Bộ",
-                "description": "Tất cả dữ liệu xử lý ngay trên máy bạn"
+            "encryption": {
+                "title": "Mã Hóa End-to-End",
+                "description": "Dữ liệu được mã hóa trong quá trình truyền tải"
             },
-            "noTracking": {
-                "title": "Không Theo Dõi",
-                "description": "Không thu thập lịch sử duyệt web"
+            "authentication": {
+                "title": "JWT Authentication",
+                "description": "Bảo mật với access/refresh tokens và session management"
             },
-            "noUpload": {
-                "title": "Không Upload",
-                "description": "Không gửi dữ liệu về server nào"
+            "httpsOnly": {
+                "title": "HTTPS-Only API",
+                "description": "Tất cả API calls đều qua HTTPS an toàn"
             },
             "securityAudit": {
                 "title": "Kiểm Toán Bảo Mật",
-                "description": "Mã nguồn được audit định kỳ"
+                "description": "Mã nguồn được audit định kỳ bởi chuyên gia"
             }
         },
-        "comparison": "Khác với các AI assistant khác, Hana không bao giờ truy cập hay lưu trữ dữ liệu của bạn"
+        "comparison": "Chúng tôi không bán dữ liệu cho bên thứ ba và tuân thủ các tiêu chuẩn bảo mật quốc tế"
     },
     "faq": {
         "badge": "Câu Hỏi Thường Gặp",
@@ -139,7 +127,7 @@
             "isFree": "Hana có thực sự miễn phí không?",
             "isFreeAnswer": "Có! Hana hoàn toàn miễn phí. Không có phí ẩn, không cần thẻ tín dụng, và bạn có thể sử dụng mãi mãi.",
             "dataProtection": "Dữ liệu của tôi được bảo vệ như thế nào?",
-            "dataProtectionAnswer": "Tất cả dữ liệu được xử lý cục bộ trên máy tính của bạn. Chúng tôi không thu thập, lưu trữ, hay truy cập lịch sử duyệt web của bạn.",
+            "dataProtectionAnswer": "Dữ liệu được mã hóa end-to-end và truyền qua HTTPS. Chúng tôi sử dụng JWT authentication để bảo vệ tài khoản. Chúng tôi không bán dữ liệu cho bên thứ ba và tuân thủ các tiêu chuẩn bảo mật quốc tế.",
             "browserSpeed": "Hana có làm chậm trình duyệt không?",
             "browserSpeedAnswer": "Không! Hana sử dụng dưới 50MB RAM và được tối ưu với background processing. Bạn sẽ không cảm nhận được bất kỳ sự chậm trễ nào.",
             "browsers": "Hana hỗ trợ những trình duyệt nào?",
