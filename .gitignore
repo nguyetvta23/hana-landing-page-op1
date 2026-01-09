@@ -22,3 +22,10 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+.windsurf
+.windsurf-ignore
+.jai1
+.jai1-ignore
+.agent
+.agent-ignore

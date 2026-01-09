@@ -5,6 +5,7 @@ import { Sparkles, Zap, Shield, Brain, ArrowRight, Check, Star, Users, Clock, Pl
 
 // Import components
 import { LanguageSwitcher } from './components/LanguageSwitcher';
+import { MobileMenu } from './components/MobileMenu';
 import { FeatureCard } from './components/FeatureCard';
 import { StepCard } from './components/StepCard';
 import { VideoPopup } from './components/VideoPopup';
@@ -13,7 +14,6 @@ import { FAQSection } from './components/FAQSection';
 
 // Import các hình mockup
 import extensionPopup from './assets/extension-popup.png';
-import dashboardUI from './assets/dashboard-real.png';
 import browserAction from './assets/browser-action.png';
 
 // Link tới extension options
@@ -49,12 +49,16 @@ function App() {
           </div>
           <span className="text-xl font-heading font-bold tracking-tight">Hana</span>
         </div>
+
+        {/* Desktop Navigation */}
         <div className="hidden md:flex items-center gap-8 text-sm font-medium text-slate-300">
           <a href="#features" className="hover:text-white transition-colors">{t('nav.features')}</a>
           <a href="#how-it-works" className="hover:text-white transition-colors">{t('nav.howItWorks')}</a>
           <a href="#pricing" className="hover:text-white transition-colors">{t('nav.pricing')}</a>
         </div>
-        <div className="flex items-center gap-3">
+
+        {/* Desktop Actions */}
+        <div className="hidden md:flex items-center gap-3">
           <LanguageSwitcher />
           <a
             href={EXTENSION_OPTIONS_URL}
@@ -64,16 +68,24 @@ function App() {
           >
             {t('nav.signIn')}
           </a>
-          {/* Add to Chrome Button */}
           <a
             href={CHROME_WEB_STORE_URL}
             target="_blank"
             rel="noopener noreferrer"
-            className="hidden sm:flex items-center gap-2 px-5 py-2.5 rounded-full bg-gradient-to-r from-primary-600 to-accent-500 text-white font-semibold shadow-lg shadow-primary-500/25 hover:shadow-primary-500/40 hover:scale-105 transition-all duration-300 text-sm"
+            className="flex items-center gap-2 px-5 py-2.5 rounded-full bg-gradient-to-r from-primary-600 to-accent-500 text-white font-semibold shadow-lg shadow-primary-500/25 hover:shadow-primary-500/40 hover:scale-105 transition-all duration-300 text-sm"
           >
             <Chrome className="w-4 h-4" />
             {t('nav.addToChrome')}
           </a>
+        </div>
+
+        {/* Mobile: Language Switcher + Hamburger Menu */}
+        <div className="flex md:hidden items-center gap-2">
+          <LanguageSwitcher />
+          <MobileMenu
+            chromeStoreUrl={CHROME_WEB_STORE_URL}
+            extensionOptionsUrl={EXTENSION_OPTIONS_URL}
+          />
         </div>
       </nav>
 
@@ -177,6 +189,13 @@ function App() {
         </div>
       </section>
 
+      {/* Privacy Badge Section - Di chuyển lên đây để build trust sớm */}
+      <section className="py-16 px-6">
+        <div className="max-w-4xl mx-auto">
+          <PrivacyBadge />
+        </div>
+      </section>
+
       {/* How It Works Section - Cách hoạt động */}
       <section id="how-it-works" className="py-24 relative overflow-hidden">
         <div className="max-w-7xl mx-auto px-6">
@@ -223,27 +242,7 @@ function App() {
         </div>
       </section>
 
-      {/* Dashboard Preview - Xem trước Dashboard */}
-      <section className="py-24 relative overflow-hidden">
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-5xl font-heading font-bold mb-4">
-              {t('dashboard.title')}
-            </h2>
-            <p className="text-slate-400 text-lg max-w-3xl mx-auto">
-              {t('dashboard.subtitle')}
-            </p>
-          </div>
 
-          <div className="relative rounded-2xl border border-white/10 bg-slate-900/40 backdrop-blur-xl shadow-2xl overflow-hidden">
-            <img
-              src={dashboardUI}
-              alt={t('dashboard.imageAlt')}
-              className="w-full h-auto"
-            />
-          </div>
-        </div>
-      </section>
 
       {/* Features Section - Tính năng */}
       <section id="features" className="py-24 relative overflow-hidden">
@@ -282,12 +281,7 @@ function App() {
         </div>
       </section>
 
-      {/* Privacy Badge Section */}
-      <section className="py-16 px-6">
-        <div className="max-w-4xl mx-auto">
-          <PrivacyBadge />
-        </div>
-      </section>
+
 
       {/* FAQ Section */}
       <FAQSection />
